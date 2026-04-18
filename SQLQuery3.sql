@@ -19,5 +19,5 @@ VALUES
 
 SELECT * FROM Employee;
 
-delete from Employee
-Where EmpID=23;
+delete from Employee 
+Where EmpID=23; 
