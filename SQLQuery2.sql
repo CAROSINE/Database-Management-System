@@ -25,4 +25,4 @@ Where EmpID=20;
 
 update Employee
 set Salary=87000
-where EmpID=20;
+where EmpID=20; 
