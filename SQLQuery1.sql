@@ -20,3 +20,4 @@ create table Employee
 
    select * from Employee
    Where Department ='IT';
+ 
