@@ -1,5 +1,5 @@
 create database connection; 
-CREATE TABLE Student
+CREATE TABLE Student 
 (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(50),
