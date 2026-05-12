@@ -6,7 +6,7 @@ CREATE TABLE Student
     StudentAge INT,
     StudentGrade INT
 );
-
+    
 CREATE TABLE Result
 (
     StudentID INT NOT NULL,
