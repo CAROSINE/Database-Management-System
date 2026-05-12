@@ -63,6 +63,7 @@ SELECT
  t.transaction_type,
  t.transaction_quantity,
  t.transaction_date
+ 
 FROM
  Product p
 JOIN
