@@ -1,6 +1,6 @@
 create database connection; 
 CREATE TABLE Student 
-( 
+(
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(50),
     StudentAge INT,
