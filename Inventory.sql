@@ -49,6 +49,7 @@ transaction_quantity INT,
 transaction_date DATE,
 FOREIGN KEY (product_id) REFERENCES Product(product_id) );
 
+
 -- Insert into Transaction
 INSERT INTO Transaction (product_id, transaction_type, transaction_quantity, transaction_date) VALUES
 (1, 'purchase', 50, '2024-09-01'),
