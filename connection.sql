@@ -1,4 +1,4 @@
-create database connection;
+create database connection; 
 CREATE TABLE Student
 (
     StudentID INT PRIMARY KEY,
