@@ -1,4 +1,4 @@
-create database Inventory;
+create database Inventory; 
 
 CREATE TABLE Product 
 (
