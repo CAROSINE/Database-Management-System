@@ -1,4 +1,5 @@
-CREATE TABLE Employees (
+CREATE TABLE Employees 
+(
  EmployeeID INT PRIMARY KEY,
  FirstName VARCHAR(50),
  LastName VARCHAR(50),
@@ -53,7 +54,7 @@ Where Salary<(Select AVG(Salary) from Employees)
 --Delete Row by Department and Position5
 Delete from Employees
 where Department='IT'
-AND Position='Devoloper'
+AND Position='Developer'
 
 --Find Minimum Salary from Table
 Select MIN(Salary)
