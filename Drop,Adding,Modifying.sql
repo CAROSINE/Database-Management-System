@@ -1,4 +1,5 @@
-create table Customers(
+create table Customers
+(
 
 CustomerID INT primary key,
 FirstName varchar(50) NOT NULL,
