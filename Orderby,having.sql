@@ -76,4 +76,4 @@ having Sum(Salary)>100000;
 
 select Department,City,AVG(Salary) as Avg_Salary
 From Employees
-group by Department,City;
+group by Department,City; 
